@@ -13,10 +13,22 @@
     <div id="btns">
         <div id="btn1"><a href="index.html">Home</a></div>
         <div id="btn2"><a href="http://facebook.com/profile.php?" target="_blank">Profile</a></div>
-        <div id="btn3"><a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https://myaccount.google.com/?pli%3D1&ec=GAlAwAE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-201266132:1790930150706331" target="_blank">
+        <div id="btn3"><a href="Signin.html" target="_blank">
          Sign In</a></div> 
     </div>
-    
+    <br>
+        <center><input id="myInput" placeholder="Ask me anything!"></center>
+    <div id="myBtn" onclick="javascript:alert('Honestly bro, wala akong pake, idgaf ask someone, try mo sa pagong')"></div>
+        <script>
+            var input = document.getElementById("myInput");
+        input.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
+            }
+         });
+        </script>
+
 </head>
     <H1 style="text-align: center; color: white; font-size: 50px; font-family:cursive, Helvetica, sans-serif;
     text-shadow: 3px 3px 4px #000000;" 
@@ -74,7 +86,7 @@
         <h2 style="font-family:cursive, Helvetica, sans-serif; color: white;">About Me</h2>
         <br>
         <p style="font-family:cursive, Helvetica, sans-serif; color: white; font-size: larger" >You dont need to know anything about me :) </p>
-    </div>
+    </div>>
 
 
 </html>
