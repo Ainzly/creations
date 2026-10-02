@@ -30,7 +30,7 @@
             font-size: 16px;
             cursor: pointer;
             background-color: #000000;
-            color: white;
+            color: rgb(255, 255, 255);
             border: none;
             border-radius: 5px;
             transition: background 0.2s;
@@ -64,7 +64,7 @@
         .slidebar.active {
             transform: translateY(0);
         }
-
+        
         .overlay {
             position: fixed;
             top: 0;
@@ -84,6 +84,7 @@
         }
 
         .close-btn {
+            color: white;
             float: right;
             cursor: pointer;
             font-size: 20px;
@@ -93,12 +94,8 @@
             font-family: cursive;
         }
 
-        .onclick {
-            
-        }
-
         #btns {
-            color: white;
+            color: rgb(0, 0, 0);
             text-align: center;
             text-decoration: none;
             color: inherit; 
