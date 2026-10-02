@@ -1,0 +1,117 @@
+.gradient {
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(59, 58, 58), rgb(0, 0, 0));
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	font-family: cursive;
+	color: white;
+	margin: 0 15px;
+}
+
+.form-box {
+	width: 100%;
+	max-width: 450px;
+	padding: 30px;
+	background: rgb(17, 17, 17);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgb(41, 41, 41);
+	display: none;
+}
+
+.form-box.active {
+	display: block;
+}
+
+h2 {
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+input{
+	 background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(59, 58, 58), rgb(0, 0, 0));
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+	width: 95%;
+	padding: 12px;
+	border-color: white;
+	height: 30px;
+	border: 30px;
+	outline: none;
+	font-size: 16px;
+	border-radius: 6px;
+	color: rgb(252, 252, 252);
+	margin-bottom: 20px;
+}
+
+select {
+	color: white;
+	background: rgb(48, 48, 48);
+	width: 30%;
+	padding: 12px;
+	border-color: white;
+	border: 30px;
+	outline: none;
+	font-size: 16px;
+	border-radius: 6px;
+}
+
+button {
+	background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(59, 58, 58), rgb(0, 0, 0));
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+	color: rgb(122, 122, 122);
+	background: rgb(43, 43, 43);
+	width: 100%;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px;
+}
+
+
+input:hover {
+	transform: scale(1.05);
+	transition: 500ms ease-out;
+}
+
+button:hover {
+    background: rgb(41, 41, 41);
+    color: black;
+    transform: scale(1.05);
+	transition: 500ms ease-out;
+
+.register a {
+	font-family: Arial, Helvetica, sans-serif;
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+.register:hover {
+	transform: scale(1.03);
+	transition: 500ms ease-out;
+}
