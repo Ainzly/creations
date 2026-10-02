@@ -57,7 +57,7 @@ input{
         height: 100vh;
 	width: 95%;
 	padding: 12px;
-	border-color: rgb(0, 0, 0);
+	border-color: white;
 	height: 30px;
 	border: 30px;
 	outline: none;
@@ -72,7 +72,7 @@ select {
 	background: rgb(48, 48, 48);
 	width: 30%;
 	padding: 12px;
-	border-color: rgb(0, 0, 0);
+	border-color: white;
 	border: 30px;
 	outline: none;
 	font-size: 16px;
@@ -113,14 +113,4 @@ button:hover {
 .register:hover {
 	transform: scale(1.03);
 	transition: 500ms ease-out;
-}
-
-.error-message {
-	padding: 12px;
-	background: rgb(37, 37, 37);
-	border-radius: 6px;
-	font-size: 16px;
-	color: rgb(255, 255, 255);
-	text-align: center;
-	margin-bottom: 2px;
 }
